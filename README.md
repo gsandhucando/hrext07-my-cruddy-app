@@ -1,6 +1,8 @@
 # hrext07-my-cruddy-app
 Create Read Update and Delete framework using JS
 
+- Maybe a weight loss app
+- Maybe a poker ranking app
 
 ## Tasks
 
