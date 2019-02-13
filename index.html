@@ -24,18 +24,56 @@ container for the response-feedback (start with alert)
 -->
 </head>
 <body>
+  <div class='game-content'>
+  <div id='message-one' class='game-message'>
+    Player Hand: <span id='player-hand'></span>
+    <span id='card-value'></span>
+    Dealer Hand: <span id='dealer-hand'></span>
+    <div id='message-two'>
+
+    </div>
+  </div>
+  <div id='bet' class='game-choices'>
+    Place a bet
+    <input id='bet-choice' placeholder="Enter a bet" type="text">
+    <button id='bet-submit'>bet submit</button>
+  </div>
+  <div id='gameover' class='game-message'>Game Over
+    <span id='end-message'>
+
+    </span>
+  </div>
+  <div id='hit-choice' class='game-choices'>
+      <button id='hit'>Hit</button>
+      <button id='stay'>Stay</button>
+    </div>
+  </div>
   <div class="container-main">
-    <header>My Cruddy App</header>
+    <header>BlackJack</header>
     <div class="container-form">
-      <input type="text" class="input-key" placeholder="enter key">
-      <input type="text" class="input-value" placeholder="enter value">
-      <button class="btn-add">Submit</button>
-      <button class="btn-update">Update</button>
-      <button class="btn-delete">Delete</button>
-      <button class="btn-clear">Clear</button>
+      <input type="text" class="player-name" placeholder="enter key">
+      <button type='button' class='name-submit'>Submit</button>
     </div>
     <div class="container-data"></div>
   </div>
+  <table class="table">
+    <tr>
+      <th>
+        Name
+      </th>
+      <th>
+        Money
+      </th>
+    </tr>
+    <tr>
+        <td id='player'>
+          Player Name
+        </td>
+        <td id='money'>
+          Player Money
+        </td>
+      </tr>
+</table>
   <img src="./images/blackjack-table-top-view-vector-20671311.jpg" alt="BlackJack-table">
 
 </body>
